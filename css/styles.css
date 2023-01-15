@@ -710,3 +710,11 @@ body {
     background-color: #404BBF;
 }
 
+.modal-close:focus .close-icon {
+    fill: #FFFFFF;
+}
+
+.modal-close:focus {
+    background-color: #404BBF;
+}
+
