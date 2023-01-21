@@ -351,13 +351,58 @@
             </section>
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
         <div class="modal">
             <button class="modal-close" type="button" data-modal-close>
                 <svg class="close-icon" width="8" height="8">
                     <use href="./img/icons.svg#icon-close"></use>
                 </svg>
             </button>
+            <p class="modal-title">
+                Leave your contacts and we will call you back
+            </p>
+            <form class="modal-form" action="#">
+                <div class="modal-field">
+                    <label class="input-text" for="name">Name</label>
+                    <input 
+                        class="modal-input" 
+                        type="text"
+                        required
+                        placeholder="Name"
+                        name="name"
+                        id="name">
+                </div>
+                <div class="modal-field">
+                    <label class="input-text" for="phone">Phone</label>
+                    <input 
+                        class="modal-input" 
+                        type="tel"
+                        required
+                        placeholder="Phone"
+                        name="phone"
+                        id="phone">
+                </div>
+                <div class="modal-field">
+                    <label class="input-text" for="email">Email</label>
+                    <input 
+                        class="modal-input" 
+                        type="email"
+                        placeholder="Email"
+                        name="email"
+                        id="email">
+                </div>
+                <div class="modal-field">
+                    <label class="input-text" for="email">Comment</label>
+                    <textarea name="" id=""
+                    name="text"
+                    id="text"
+                    placeholder="Text input"
+                    class="modal-comment"
+                    ></textarea>
+                    
+                </div>
+            </form>
+            <button class="send-btn" type="submit">Send</button>
         </div>
     </div>
 
